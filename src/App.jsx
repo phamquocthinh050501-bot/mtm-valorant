@@ -21,7 +21,7 @@ export default function App() {
       <main className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 py-8">
         <Header query={query} setQuery={setQuery} onSubmit={submit} loading={loading} error={error} />
 
-        <TacticalCommand team={team} selectedName={current?.name} onSelectName={(n) => select(team.find((p) => p.name === n))} />
+        {/* <TacticalCommand team={team} selectedName={current?.name} onSelectName={(n) => select(team.find((p) => p.name === n))} /> */}
 
         {current && (
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-12">
